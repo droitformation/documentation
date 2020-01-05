@@ -1,0 +1,84 @@
+.documentation > ul:first-of-type{
+    margin-bottom: 20px;
+    position: fixed;
+    padding: 1rem;
+    list-style: none;
+    padding: 0;
+    width: 20%;
+    top: 120px;
+    right: 30px;
+}
+
+.documentation{
+    width: 60% !important;
+}
+
+.documentation h2 a, .documentation h2 a:hover {
+    color:  #0A0A10;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.documentation p{
+    line-height: 1.7;
+}
+
+.documentation ul li {
+    font-size: 0.95rem;
+    line-height: 1.75;
+}
+
+.documentation ol ,
+.documentation ul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.documentation ol > li,
+.documentation ul > li {
+    padding-top: 0;
+    padding-bottom: .3rem;
+}
+
+.sidebar > ul > li > ul > li.is-active {
+    padding-left: 0;
+}
+
+.sidebar > ul > li > ul > li.is-active a{
+    color: var(--primary);
+}
+
+.alert,table{
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,.1) !important;
+}
+
+.sidebar > ul {
+    padding: 0 0 20px 0;
+    width: 60%;
+    float: right;
+}
+
+.sidebar > ul > li > ul > li.is-active > ul > li a{
+    color: #000;
+}
+
+.documentation img {
+    margin: 10px 0 !important;
+}
+
+table{
+    margin-bottom: 10px;
+}
+
+.sidebar > ul > li > ul > li h3{
+    font-size: .875em;
+    font-weight: 600;
+    color: #090910;
+    padding-left: 2.1rem;
+    -webkit-transition: padding-left .3s;
+    transition: padding-left .3s;
+}
+
+.sidebar > ul > li > h2{
+    padding: 1rem 0 0.5rem 0 !important;
+}
