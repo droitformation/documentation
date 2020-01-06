@@ -82,3 +82,7 @@ table{
 .sidebar > ul > li > h2{
     padding: 1rem 0 0.5rem 0 !important;
 }
+
+.alert.is-primary a{
+  color: #000;
+}
