@@ -83,6 +83,7 @@ table{
     padding: 1rem 0 0.5rem 0 !important;
 }
 
-.alert.is-primary a{
-  color: #000;
+.alert.is-primary a,
+.alert.is-info a{
+  color: #fff;
 }
