@@ -10,7 +10,7 @@
 }
 
 .documentation{
-    width:72% !important;
+    width:65% !important;
     margin-left: 12%;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .sidebar{
-    width: 29%;
+    width: 25%;
 }
 
 .sidebar > ul > li > ul > li.is-active {
@@ -70,7 +70,7 @@
 
 .sidebar > ul {
     padding: 0 0 20px 0;
-    width: 65%;
+    width: 75%;
     float: right;
 }
 
