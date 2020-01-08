@@ -100,3 +100,8 @@ code, kbd, samp {
     margin-top: 10px;
     margin-bottom: 5px;
 }
+
+.documentation hr {
+    margin-top: 1.7rem !important;
+    margin-bottom: 1.7rem !important;
+}
