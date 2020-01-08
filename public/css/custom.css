@@ -38,7 +38,9 @@
 .documentation ol > li,
 .documentation ul > li {
     padding-top: 0;
-    padding-bottom: .3rem;
+    padding-bottom: .6rem;
+    font-size: 1em;
+    line-height: 1.3rem;
 }
 
 .sidebar > ul > li > ul > li.is-active {
