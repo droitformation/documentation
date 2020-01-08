@@ -10,7 +10,8 @@
 }
 
 .documentation{
-    width: 60% !important;
+    width: 65% !important;
+    margin-left: 12%;
 }
 
 .documentation h2 a, .documentation h2 a:hover {
@@ -43,6 +44,10 @@
     line-height: 1.3rem;
 }
 
+.sidebar{
+    width: 25%;
+}
+
 .sidebar > ul > li > ul > li.is-active {
     padding-left: 0;
 }
@@ -57,7 +62,7 @@
 
 .sidebar > ul {
     padding: 0 0 20px 0;
-    width: 60%;
+    width: 65%;
     float: right;
 }
 
@@ -94,13 +99,13 @@ table{
 code, kbd, samp {
     font-family: monospace,monospace;
     font-size: 1em;
-    padding: 10px 5px;
+    padding: 15px;
     background: #f8f8f8f8;
     display: block;
     border-radius: 4px;
     box-shadow: 0px 1px 2px 0 rgba(0,0,0,.2);
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .documentation hr {
