@@ -21,10 +21,11 @@
 
 .documentation p{
     line-height: 1.7;
+    margin-bottom: 10px;
 }
 
 .documentation ul li {
-    font-size: 0.95rem;
+    font-size: 0.975rem;
     line-height: 1.75;
 }
 
