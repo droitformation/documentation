@@ -87,3 +87,14 @@ table{
 .alert.is-info a{
   color: #fff;
 }
+
+code, kbd, samp {
+    font-family: monospace,monospace;
+    font-size: 1em;
+    padding: 10px 5px;
+    background: #f8f8f8f8;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0 rgba(0,0,0,.2);
+    margin-top: 10px;
+}
