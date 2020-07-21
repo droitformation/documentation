@@ -15,6 +15,10 @@ Route::get('/', function () {
     return redirect('docs');
 });
 
+Route::get('edit/{path}', 'HomeController@edit');
+Route::post('save', 'HomeController@save');
+Route::post('upload', 'UploadController@upload');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

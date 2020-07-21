@@ -47,7 +47,7 @@
         @endforeach
 
         <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
-
+        <link rel="stylesheet" href="{{ asset('css/jquery.fancybox.min.css') }}">
     </head>
     <body>
         <div id="app" v-cloak>
@@ -60,7 +60,6 @@
 
             <larecipe-back-to-top></larecipe-back-to-top>
         </div>
-
 
         <script>
             window.config = @json([]);
@@ -98,5 +97,6 @@
         <script>
             LaRecipe.run()
         </script>
+        <script src="{{ asset('js/jquery.fancybox.min.js') }}"></script>
     </body>
 </html>

@@ -8,19 +8,18 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.2",
+        "php": "^7.4",
         "abbyjanke/laracolor": "dev-master",
-        "binarytorch/larecipe": "^2.2",
+        "binarytorch/larecipe": "^2.3",
         "fideloper/proxy": "^4.0",
-        "laravel/framework": "^6.2",
+        "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0"
     },
     "require-dev": {
-        "facade/ignition": "^1.4",
+        "facade/ignition": "^2.3.3",
         "fzaninotto/faker": "^1.4",
-        "laravel/ui": "^1.1",
+        "laravel/ui": "^2.1",
         "mockery/mockery": "^1.0",
-        "nunomaduro/collision": "^3.0",
         "phpunit/phpunit": "^8.0"
     },
     "config": {
@@ -45,7 +44,10 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
-        }
+        },
+        "files": [
+            "app/helpers.php"
+        ]
     },
 
     "minimum-stability": "dev",

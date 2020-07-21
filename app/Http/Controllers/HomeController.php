@@ -25,4 +25,20 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function edit($path)
+    {
+        $path = getEditUrl($path);
+
+        $contents = file_get_contents(resource_path($path.'.md'));
+
+        return view('edit')->with(['contents' => $contents, 'path' => $path]);
+    }
+
+    public function save(Request $request)
+    {
+        $contents = file_put_contents(resource_path($request->input('path').'.md'), $request->input('text'));
+
+        return redirect($request->input('path'));
+    }
 }

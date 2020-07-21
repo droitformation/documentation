@@ -122,3 +122,36 @@ code, kbd, samp {
     margin-top: 1.7rem !important;
     margin-bottom: 1.7rem !important;
 }
+
+.documentation .btn{
+    font-family: 'Source Sans Pro', 'Segoe UI', 'Droid Sans', Tahoma, Arial, sans-serif;
+    border-width: 0px;
+    -webkit-box-shadow: inset 0 0 0px 1px rgba(0,0,0,0.08);
+    box-shadow: inset 0 0 0px 1px rgba(0,0,0,0.08);
+    color: #ffffff;
+    background-color: #787AF6;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    padding: .45rem 1rem;
+    border-radius: .25rem;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #fff;
+    text-decoration: none;
+}
+
+.documentation .btn:hover{
+    opacity: 0.9;
+}
+
+.btn-tools{
+    padding: 0 10px;
+    margin-bottom: 20px;
+    text-align: right;
+}
