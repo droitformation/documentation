@@ -15,6 +15,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/mdeditor.css') }}">
+
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="{{ asset('js/mdeditor.min.js') }}"></script>
@@ -33,7 +34,7 @@
             </div>
         </nav>
 
-        <main class="py-4 mt-4">
+        <main class="mt-4">
             @yield('content')
         </main>
     </div>
