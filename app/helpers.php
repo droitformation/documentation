@@ -2,10 +2,11 @@
 
 function makeEditUrl($path){
     $parsed = parse_url($path);
-    $parts = implode('-',explode('/',$parsed['path']));
-    return ltrim($parts, '-');
+    $parts  = explode('/',$parsed['path']);
+
+    return end($parts);
 }
 
 function getEditUrl($path){
-    return str_replace('-','/',$path);
+    return 'docs/System/'.$path;
 }
