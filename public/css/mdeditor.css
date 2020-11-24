@@ -813,3 +813,122 @@ span.CodeMirror-selectedtext {
     left: 0
 }
 
+table {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.11),0 2px 5px 0 rgba(0,0,0,.08);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.11),0 2px 5px 0 rgba(0,0,0,.08);
+    background-color: var(--white);
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+table td, table th {
+    padding: 0.7rem;
+}
+
+table td, table th, table tr {
+    border-width: 1px;
+    border-color: #cad1d8;
+    border-style: solid;
+}
+
+/*
+ * Same css as frontend
+*/
+.mdeditor_render {
+    font-size: .975em;
+    font-weight: 300;
+    color: #535357;
+}
+
+.mdeditor_render > ul:first-of-type {
+    position: relative;
+    padding: 1rem;
+    list-style: none;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mdeditor_render > ul:first-of-type li {
+    border-bottom-width: 0px;
+    line-height: .5;
+    padding: .75rem;
+}
+
+.mdeditor_render > ul:first-of-type li a {
+    font-size: .875rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0A0A10;
+}
+
+.mdeditor_render > ul:first-of-type li a::before {
+    content: "#";
+    margin-left: -1rem;
+    position: absolute;
+    font-size: 1rem;
+    color: #ff2d1f;
+    opacity: .75;
+}
+
+.mdeditor_render h1:first-of-type {
+    border-left-width: 4px;
+    border-left-color: #ff2d1f;
+    border-left-style: solid;
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    color: #0A0A10;
+}
+
+.mdeditor_render h2::before{
+    color: #ff2d1f;
+    content: '#';
+    padding-right: 8px;
+}
+
+.mdeditor_render h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.mdeditor_render hr {
+    border-top-width: 2px;
+    border-style: dashed;
+    border-color: #d3dde5;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mdeditor_render h2 a,
+.mdeditor_render h2 a:hover {
+    color: #0A0A10;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.mdeditor_render h2 a:before {
+    margin-left: -1.5rem;
+    color: #ff2d1f;
+    margin-top: 0;
+    font-size: 1.6rem;
+}
+
+.mdeditor_render h3 {
+    font-weight: 600;
+}
+
+.mdeditor_render a {
+    color: #EC0D00;
+    text-decoration: underline;
+}
+
+.mdeditor_render :not(pre) > code[class*="language-"],
+.mdeditor_render pre[class*="language-"] {
+    background: #FBFBFD;
+    padding: 20px;
+}
