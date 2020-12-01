@@ -58,7 +58,7 @@ return [
         'auth'       => false,
         'ga_id'      => '',
         'middleware' => [
-            'web','auth'
+            'web'
         ]
     ],
 
