@@ -1,12 +1,14 @@
 <?php
 
 function makeEditUrl($path){
-    $parsed = parse_url($path);
-    $parts  = explode('/',$parsed['path']);
 
-    return end($parts);
+    $path = str_replace('https://library.test/docs/System/','',$path);
+    $path = str_replace('https://library.droitne.ch/docs/System/','',$path);
+
+    return str_replace('/','&',$path);
 }
 
 function getEditUrl($path){
+    $path = str_replace('&','/',$path);
     return 'docs/System/'.$path;
 }
