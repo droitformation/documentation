@@ -11,17 +11,19 @@
 |
 */
 
-Route::get('/', function () {
-    return redirect('docs');
+Route::group([ 'middleware' => ['auth']], function () {
+
+    Route::get('/', function () {
+        return redirect('docs');
+    });
+
+    Route::get('edit/{path}', 'HomeController@edit')->middleware('auth');
+    Route::post('save', 'HomeController@save')->middleware('auth');
+    Route::post('upload', 'UploadController@upload')->middleware('auth');
+    Route::get('/home', 'HomeController@index')->name('home');
 });
 
-Route::get('edit/{path}', 'HomeController@edit')->middleware('auth');
-Route::post('save', 'HomeController@save')->middleware('auth');
-Route::post('upload', 'UploadController@upload')->middleware('auth');
-
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('files', function () {
 
