@@ -194,5 +194,9 @@ return [
 
     'packages' => [
         'path' => 'larecipe-components',
+    ],
+    
+    'settings' => [
+        'auth' => true
     ]
 ];
